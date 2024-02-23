@@ -3,7 +3,7 @@ package sorting;
 import java.util.Arrays;
 import java.util.Random;
 
-public class bubleSort {
+public class BubleSort {
 
     public static int[] TEST_SORT_ARRAY = {5,9,11,1,2,6,7,8,3,4,15,20};
 
