@@ -14,11 +14,13 @@ public class StaticMemoryTest extends Thread{
 
         a.start();
         b.start();
+
+        System.out.println(share);
     }
 
     @Override
     public void run() {
-        for (int i = 0; i < 10 ; i++) {
+        for (int i = 0; i < 100 ; i++) {
             System.out.println(myName + " " +share++);;
             try{
                 sleep(1000);
