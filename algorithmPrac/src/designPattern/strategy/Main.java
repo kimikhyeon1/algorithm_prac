@@ -9,7 +9,7 @@ public class Main {
         soldier.run(strategy);
 
         System.out.println();
-        
+
         strategy = new StrategyGun();
         soldier.run(strategy);
     }

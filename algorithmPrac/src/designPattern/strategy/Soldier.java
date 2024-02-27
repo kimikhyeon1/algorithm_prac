@@ -1,6 +1,6 @@
 package designPattern.strategy;
 
-public class Soldier {
+class Soldier {
     void run(Strategy strategy){
         System.out.println("전투 시작");
         strategy.runStrategy();
