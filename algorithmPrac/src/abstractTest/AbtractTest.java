@@ -1,6 +1,6 @@
 package abstractTest;
 
-public class AbtractTest {
+class AbtractTest {
     public static void main(String[] args) {
         System.out.println("내가 먼저 실행 되겠지? -Main");
         AnimalAbstract dog = new Dog("뽀삐");
